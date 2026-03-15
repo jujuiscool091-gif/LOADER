@@ -1,0 +1,1 @@
+local a=os.clock()local b={1,2,3,6,10}for c,d in ipairs(b)do io.write("\rECLIPSE HUB - LOADING "..string.rep(".",d))task.wait(0.5)end local e=os.clock()-a print("\nECLIPSE HUB - LOADER IN - "..tostring(e).." secs :)")loadstring(game:HttpGet("https://raw.githubusercontent.com/jujuiscool091-gif/ECLIPSE-HUB-/refs/heads/main/MAIN.lua"))()
